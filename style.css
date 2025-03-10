@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+#group-tabs {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.group-button:hover {
+    background-color: #1976D2;
+}
+
+.favorites {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#url-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px; /* Espaçamento entre os botões */
+  justify-content: center; /* Centralizar os botões */
+  align-items: center; /* Alinhar verticalmente no centro */
+}
+
+
+button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#send {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+#send:hover {
+    background-color: #388E3C;
+}
+
+#clear {
+    background-color: #F44336;
+    color: #fff;
+}
+
+#clear:hover {
+    background-color: #D32F2F;
+}
+
+.favorites-list {
+    text-align: left;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    font-size: 14px;
+}
+form {
+  display: inline-block;
+}
+.buttons {
+  display: inline-block;
+}
+.open-tabs-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.open-tabs-button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}

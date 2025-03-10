@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizador de Guias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="Ícone" class="icon">
+            <h1>Organizador<br>De Guias</h1>
+        </div>
+        <!-- Botão para agrupar guias -->
+        <button id="group-tabs">Agrupar guia por domínio</button>
+
+        <!-- Formulário para URLs favoritas -->
+        <div class="favorites">
+            <label for="fname">Escolha suas URLs Favoritas:</label>
+            <form id="myForm">
+                <input type="text" id="fname" placeholder="Digite aqui" required>
+            </form>
+            <div class="buttons">
+                <button type="submit" form="myForm" id="send">Enviar</button>
+                <button type="submit" form="apagar" id="clear">Apagar</button>
+            </div>
+            <form id="apagar" style="display: none;"></form>
+        </div>
+
+        <!-- Lista de URLs favoritas -->
+        <div class="favorites-list">
+            <h3>Urls Adicionadas:</h3>
+            <ul id="tab-list"></ul>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
